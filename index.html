@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+	<!-- The boring part! -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio</title>
+	<meta content="Development portfolio of .... " name="description" property="og:description">
+	
+	<!-- Link to the relevant stylesheet -->
+	<link href="style.css" rel="stylesheet">
+	
+  <!--[if lte IE 8]>
+      <link href="dist/css/blockIE.css" rel="stylesheet">
+    <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!-- Load JQuery, as our little script depends on it -->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css"> <!-- Load our font from Google -->
+  <!-- The JS code block has been moved into the index.js file.  -->
+  <script src="./index.js"></script>
+</head>
+
+<body>
+	<!-- This calls the little script written above. -->
+  <div class="preloader"></div>
+  <main>
+
+	<!-- The Intro section begins -->
+  <section class="intro">
+
+		<div class="intro-text"> <!-- Seperates the text section from the arrow. -->
+      <div class="Hi">
+				<h1>Hi!  &mdash; My name is <span>Arnau</span>, I'm a <span>UX/UI Designer</span>  located in Barcelona, Spain.</h1> <!-- Insert your text here! -->
+      </div>
+    </div>
+    
+	</section>
+	<!-- Intro section ends -->
+	
+	<!-- The portfolio section begins -->
+  <!-- Please note: all of the following images are from Unsplash. I do not own the rights to them, and I have used them according to Unsplash's
+    href="https://www.github.com/jabedford"
+				rules and regulations. All credits go to original owners/photographers.-->
+
+  <section class="projects">
+    <div class="projects-collage">
+
+			<!-- Project One -->
+      <a href="project1.html" class="project-item">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="moona.jpg">
+          <figcaption class="project-text">
+            <h2>Moona</h2>
+            <p>Healthcare App to enchace sleep</p>
+          </figcaption>
+        </figure>
+			</a>
+			<!-- Project One Ends -->
+			
+			<!-- Project Two -->
+      <a href="project2.html" class="project-item">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="roure.jpg">
+          <figcaption class="project-text">
+            <h2>Cafès Roure</h2>
+            <p>E-commercce for a specialty coffee shop</p>
+          </figcaption>
+        </figure>
+			</a>
+			<!-- Project Two Ends -->
+			
+			<!-- Project Three -->
+   
+			<!-- Project Three Ends -->
+
+			
+    </div>
+	</section>
+	<!-- Portfolio section ends -->
+	
+	
+	<!-- Contact button section begins -->
+  <section class="content contact">
+    <a class="button-slide" data-hover="arnautortosaperez@gmail.com" href="mailto:arnautortosaperez@gmail.com">
+      <span>Talk To Me!</span>
+    </a>
+    <!-- Contact button section begins 
+    <div id='form'>
+      <h1>Drop a message below.</h1>
+      <p>And I'll get to you ASAP</p>
+      <form> 
+        <input type="text" placeholder="Your Awesome Name"> 
+        <input type="email" placeholder="Your cool email address">
+        <textArea placeholder="Message here please">
+        </textArea>
+        <div id='buttonDiv'>
+          <button>Send</button>
+        </div>
+      </form>
+    </div>
+    </section>
+	 Contact button section ends-->
+	
+	<!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
+  <footer>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a href="#" target="_blank">(+34) 618261817</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/arnau-tortosa-perez-a89829194/" target="_blank">Linkedin</a>
+				</li>
+				<li>
+						<a href="https://github.com/jabedford" target="_blank">GitHub</a>
+					</li>
+      </ul>
+    </div>
+	</footer>
+	<!-- Footer section ends -->
+  </main>
+  <!--This section would ONLY appear when an individual project 'box' is clicked, It gives more detail about the project. it contains-- IMAGE OF THE PROJECT, THE PROJECT'S NAME, THE PROJECT FULL DESCRIPTION, GITHUB LINK && PREVIEW LINK -->
+  
+</body>
+
+
+</html>
